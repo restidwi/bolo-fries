@@ -1,0 +1,20 @@
+.arrow-button {
+  background-color: #F79C1D; /* warna oranye */
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-top-left-radius: 50px; /* sudut kiri melengkung */
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.arrow-button:hover {
+  background-color: #f6a83d; /* warna saat hover */
+}
